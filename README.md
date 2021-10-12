@@ -1,11 +1,12 @@
 #ENDPOINTS
 * estimateDelivery
   <br/>
-  Função: Cálculo do frete utilizando o endpoint dos correios. Calcula dois tipos de pacotes: 04510 (Pac) e 04014 (Sedex),
+  <br/>
+  Função: Cálculo do frete utilizando o endpoint dos correios. Calcula dois tipos de pacotes: 04510 (Pac) e 04014 (Sedex)
 
-  Método: POST,
+  Método: POST
 
-  URL: '/estimateDelivery',
+  URL: '/estimateDelivery'
 
   Parâmetro: 
       
@@ -39,21 +40,22 @@
           entrega_sabado: 'N'
         }
       }
-    ,
+
 
 * sendMessageToPubSub
-  Função: Receba uma string e a envia para uma fila do pubsub,
+  <br/>
+  <br/>
+  Função: Receba uma string e a envia para uma fila do pubsub
   
-  Método: POST,
+  Método: POST
 
-  URL: '/publish',
+  URL: '/publish'
 
   Parâmetro:
   
   	  {
         message: "testing" 
       }
-  ,
 
   Retorno:
       
