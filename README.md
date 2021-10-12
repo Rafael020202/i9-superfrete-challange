@@ -17,7 +17,7 @@
       weight: 0.3 //peso do pacote em kg
     },
 
-  Retorno:
+  Retorno: <br/>
     {
       pac: {
         valor: '15,90',
