@@ -13,7 +13,7 @@
       {
         origin_postcode: "", //Cep de origem
         destination_postcode: "", //Cep de destino
-        package_format: 1, //Utilize o 1 (pacote) como default e única opção
+        package_format: 1, //Pacote 
         width: 0, //largura do pacote em cm
         height: 0, //altura do pacote em cm
         length: 0, //comprimento do pacote em cm
